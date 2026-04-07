@@ -21,3 +21,13 @@ acquisition, and simple human-machine interaction. From a software design perspe
 the program follows an event-driven structure written in Python, where each component 
 (sensor input, output display, and storage) runs sequentially within a loop, optimized for 
 low latency and efficient I/O handling.
+
+
+# Contents of each sub-file
+main.py	Entry point 
+models.py: AlertLevel enum, Motion dataclass
+sensors.py: PIRSensor, Webcam
+actuators.py: Buzzer, LED
+display.py: LCD, PushButton, DisplayController
+database.py: DatabaseLogger
+system.py: SystemControl (imports from all modules above)
