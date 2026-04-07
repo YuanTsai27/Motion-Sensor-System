@@ -24,10 +24,10 @@ low latency and efficient I/O handling.
 
 
 # Contents of each sub-file
-main.py	Entry point 
-models.py: AlertLevel enum, Motion dataclass
-sensors.py: PIRSensor, Webcam
-actuators.py: Buzzer, LED
-display.py: LCD, PushButton, DisplayController
-database.py: DatabaseLogger
-system.py: SystemControl (imports from all modules above)
+- main.py:	Entry point 
+- models.py: AlertLevel enum, Motion dataclass
+- sensors.py: PIRSensor, Webcam
+- actuators.py: Buzzer, LED
+- display.py: LCD, PushButton, DisplayController
+- database.py: DatabaseLogger
+- system.py: SystemControl (imports from all modules above)
