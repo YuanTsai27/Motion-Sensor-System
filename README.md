@@ -1,4 +1,4 @@
-# Motion-Based-Embedded-Device
+# Motion-Sensor-System
 A Raspberry Pi–based motion sensor that triggers an alert of varying intensity.  It integrates a PIR motion sensor, webcam, buzzer, LCD display and LEDs within the processes of detecting motion, capturing images, triggering alerts and logging motion events.
 
 # Device explained more in-depth
